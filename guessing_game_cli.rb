@@ -2,7 +2,7 @@ require 'pry'
 
 
 def run_guessing_game
-  numb = rand(1..6) 
+  numb = rand(6) + 1
  input = gets.chomp
  
   if input == numb.to_s
